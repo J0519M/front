@@ -1,4 +1,4 @@
-/* Umumiy sozlamalar */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-/* Asosiy karta */
+
 .card {
     display: flex;
     background-color: white;
@@ -24,7 +24,7 @@ body {
     overflow: hidden;
 }
 
-/* Chap taraf (Binafsha qism) */
+
 .result-section {
     flex: 1;
     background: linear-gradient(to bottom, #7857ff, #2e2be9);
@@ -75,7 +75,7 @@ body {
     line-height: 1.4;
 }
 
-/* O'ng taraf (Statistika qismi) */
+
 .summary-section {
     flex: 1;
     padding: 40px;
@@ -103,13 +103,13 @@ body {
     color: #989da9;
 }
 
-/* Har bir qator uchun alohida ranglar */
+
 .reaction { background-color: #fff6f5; color: #ff5757; }
 .memory { background-color: #fffbf2; color: #ffb01e; }
 .verbal { background-color: #f2fbfa; color: #00bd91; }
 .visual { background-color: #f3f3fd; color: #1125d4; }
 
-/* Tugma */
+
 .btn-continue {
     width: 100%;
     padding: 15px;
@@ -127,7 +127,7 @@ body {
     background: linear-gradient(to bottom, #7857ff, #2e2be9);
 }
 
-/* Mobil moslashuvchanlik */
+
 @media (max-width: 600px) {
     .card {
         flex-direction: column;

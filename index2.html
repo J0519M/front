@@ -3,25 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mortgage Calculator</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-section">
-            <div class="left-top">
+
+    <div class="card">
+        <div class="form-section">
+            <div class="header">
                 <h2>Mortgage Calculator</h2>
-                <a href="#">Clear All</a>
-                
+                <button class="clear-btn">Clear All</button>
+            </div>
+
+            <div class="input-group full-width">
+                <label>Mortgage Amount</label>
+                <div class="input-container">
+                    <span class="prefix">£</span>
+                    <input type="number" placeholder="">
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="input-group">
+                    <label>Mortgage Term</label>
+                    <div class="input-container reverse">
+                        <span class="suffix">years</span>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Interest Rate</label>
+                    <div class="input-container reverse">
+                        <span class="suffix">%</span>
+                        <input type="number">
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group full-width">
+                <label>Mortgage Type</label>
+                <label class="radio-container">
+                    <input type="radio" name="type" checked>
+                    <span class="radio-text">Repayment</span>
+                </label>
+                <label class="radio-container">
+                    <input type="radio" name="type">
+                    <span class="radio-text">Interest Only</span>
+                </label>
+            </div>
+
+            <button class="calculate-btn">
+                <span class="icon">🖩</span> Calculate Repayments
+            </button>
+        </div>
+
+        <div class="result-section">
+            <div class="result-content">
+                <img src="" alt="Illustration" width="120">
+                <h3>Results shown here</h3>
+                <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
             </div>
         </div>
-        <div class="right-section">
-            <image src="images/illustration-thank-you.svg" alt="image">
-                <h2>Results shown here</h2>
-                <p>Comple the form of click "calculate repayments" to see what tour monthly repayments would be</p>
-        </div>
-            
     </div>
-    
+
 </body>
 </html>
